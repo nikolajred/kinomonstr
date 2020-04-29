@@ -316,6 +316,30 @@ ul.menu li a:hover {
 	color: white;
 }
 
+table{
+	width: 100%;
+	border: solid 1px #f4f4f4;
+}
+
+td{
+	padding: 2%;
+	border: solid 1px #f4f4f4;
+}
+
+td img{
+	width: 60px;
+	vertical-align: middle;
+}
+
+.center{
+	text-align: center;
+}
+
+.reting{
+	font-weight: bold;
+}
+
+
 .footer{
 	width: 100%;
 	height: 100px;
@@ -340,4 +364,16 @@ ul.menu li a:hover {
 
 .footer p{
 	padding: 0 0 10px 0;
+}
+
+/* CSS mobile*/
+
+@media only screen {
+	and (min-device-width : 320px)
+	and (max-device-width : 568px) {
+		.header{
+			background-color: #257965;
+		}
+	}
+	
 }
